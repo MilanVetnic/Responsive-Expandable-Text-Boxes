@@ -1,10 +1,6 @@
-//Variables
-
 var accordion = document.querySelector('.accordion');
 var items = accordion.querySelectorAll('li');
 var questions = accordion.querySelectorAll('.question');
-
-//Funtions
 
 function toggleAccordion() {
   var thisItem = this.parentNode;
@@ -16,7 +12,5 @@ function toggleAccordion() {
     item.classList.remove('open');
   });
 }
-
-//Event Listeners
 
 questions.forEach(question => question.addEventListener('click', toggleAccordion));
