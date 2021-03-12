@@ -7,7 +7,7 @@ Reusable Web Components to speed up development time and achieve consistency of 
 * [Setup](#setup)
 
 ## General Info 
-This project is for a Search Button on a web page. 
+This project is responsive, expandable text boxes.
 
 ** Technologies
 Project is created with: 
